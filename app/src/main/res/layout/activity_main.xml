@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vice.imtranslate.ui.activity.MainActivity">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:background="#F9F9F9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="5dp">
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_chat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/selector_tab_chat"
+                android:textColor="@drawable/selector_tab_textcolor"
+                android:text="会话"
+                android:layout_centerInParent="true"
+                android:gravity="center" />
+            <RelativeLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true">
+                <TextView
+                    android:visibility="invisible"
+                    android:id="@+id/tv_unread"
+                    android:gravity="center"
+                    android:text="6"
+                    android:textColor="@android:color/white"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/shape_unread"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_contacts"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/selector_tab_contacts"
+            android:textColor="@drawable/selector_tab_textcolor"
+            android:text="通信录"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/tv_me"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/selector_tab_me"
+            android:textColor="@drawable/selector_tab_textcolor"
+            android:text="我"
+            android:gravity="center" />
+    </LinearLayout>
+</LinearLayout>

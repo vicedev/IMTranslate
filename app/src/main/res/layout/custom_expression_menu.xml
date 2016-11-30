@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager
+        android:background="@color/extend_menu_bg"
+        android:id="@+id/vp_expression"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></android.support.v4.view.ViewPager>
+    <com.rd.PageIndicatorView
+        android:id="@+id/pageIndicatorView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        attrs:piv_animationType="fill"
+        attrs:piv_interactiveAnimation="true"
+        android:background="@color/extend_menu_bg"
+        attrs:piv_selectedColor="@android:color/darker_gray"
+        attrs:piv_unselectedColor="@android:color/darker_gray"
+        attrs:piv_viewPager="@id/vp_expression" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/white">
+        <ImageButton
+            android:id="@+id/ib_classical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:src="@drawable/ee_1"/>
+    </LinearLayout>
+</LinearLayout>

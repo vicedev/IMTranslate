@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomExpressionMenu">
+        <attr name="rows" format="integer"></attr>
+        <attr name="columns" format="integer"></attr>
+    </declare-styleable>
+
+</resources>

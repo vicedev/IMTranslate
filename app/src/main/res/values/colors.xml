@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="greeny">#00CB0D</color>
+
+    <color name="statusbar_color">#1C86EE</color>
+
+    <color name="press">#e8e8e8</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="de_title_bg">#0195ff</color>
+
+    <color name="tab_textcolor">#4000</color>
+    <color name="tab_textcolor_selected">#0195ff</color>
+
+    <color name="extend_menu_bg">#FAFAFA</color>
+</resources>
