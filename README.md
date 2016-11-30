@@ -5,10 +5,7 @@
 
 
 
-![](./images/会话.png)
+![](./images/会话.png )![](./images/语言选择.png)
 
-![](./images/语言选择.png)
-![](./images/表情.png)
-
-![](./images/拍照.png)
+![](./images/表情.png)![](./images/拍照.png)
 
